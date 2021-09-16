@@ -415,6 +415,16 @@ button.selected{
     height: 335px;
   
 }
+.baum{
+
+    position: absolute;
+    top: 273%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 400px;
+
+}
 .zielstatt{
 
     position: absolute;
@@ -546,14 +556,15 @@ button.selected{
     font-size: 14px;
     color: rgb(196, 196, 196);
 }
+
 .strich1{
 
     position: absolute;
     width: 150px;
     height: 3px;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    top: 255%;
-    left: 45%;
+    top: 16%;
+    left: 0%;
     transform: rotate(45deg);
     border-radius: 20px;
 }
@@ -563,8 +574,8 @@ button.selected{
     width: 150px;
     height: 3px;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    top: 268.9%;
-    left: 45%;
+    top: 42%;
+    left: 0%;
     transform: rotate(-45deg);
     border-radius: 20px;
 }
@@ -574,16 +585,16 @@ button.selected{
     width: 150px;
     height: 3px;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    top: 282.7%;
-    left: 45%;
+    top: 68%;
+    left: 0%;
     transform: rotate(45deg);
     border-radius: 20px;
 }
 .kreis1{
 
     position: absolute;
-    top: 247%;
-    left: 46%;
+    top: 0%;
+    left: 5%;
     background: #2afc00;
     width: 20px;
     height: 20px;
@@ -592,8 +603,8 @@ button.selected{
 .kreis2{
 
     position: absolute;
-    top: 260.8%;
-    left: 53%;
+    top: 27%;
+    right: 5%;
     background: #e5ff00;
     width: 20px;
     height: 20px;
@@ -602,8 +613,8 @@ button.selected{
 .kreis3{
 
     position: absolute;
-    top: 274.5%;
-    left: 45.5%;
+    top: 53%;
+    left: 5%;
     background: #2afc00;
     width: 20px;
     height: 20px;
@@ -612,8 +623,8 @@ button.selected{
 .kreis4{
 
     position: absolute;
-    top: 288.5%;
-    left: 53%;
+    top: 79%;
+    right: 5%;
     background: #e5ff00;
     width: 20px;
     height: 20px;
