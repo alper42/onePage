@@ -1,12 +1,4 @@
-$(window).scroll(function(){
-    if($(this).scrollTop() > 10){
-        $(".navbar").addClass("navbarAni");
-    }
-    else{
-
-        $(".navbar").removeClass("navbarAni");
-    }
-})
+                          /*Lebenslauf*/
 
 
 $(".beruf").click(function(){
@@ -41,8 +33,6 @@ $(".schule").click(function(){
   $(".berufIcon").css("color", "rgb(212, 212, 212)");
 });
 
-
-
 $(".schule").click(function(){
   $(".schuleIcon").css("color", "#b9fc00");
 });
@@ -50,10 +40,6 @@ $(".schule").click(function(){
 $(".beruf").click(function(){
   $(".schuleIcon").css("color", "rgb(212, 212, 212)");
 });
-
-
-
-
 
 $(".beruf").click(function(){
   $(".vier").hide();
@@ -72,11 +58,6 @@ $(".schule").click(function(){
   $(".drei").show();
 });
 
-
-
-
-
-
 $(".beruf").click(function(){
   $(".jahr1beruf").css("z-index", 1);
 });
@@ -92,9 +73,6 @@ $(".beruf").click(function(){
 $(".schule").click(function(){
   $(".jahr1").css("color", "rgb(196, 196, 196)");
 });
-
-
-
 
 $(".beruf").click(function(){
   $(".jahr2beruf").css("z-index", 1);
@@ -112,18 +90,18 @@ $(".schule").click(function(){
   $(".jahr2").css("color", "rgb(196, 196, 196)");
 });
 
-
-
 $(".beruf").click(function(){
   $(".schule").css("color", "rgb(196, 196, 196)");
 });
+
+
+                          /*Nav*/
+
 
 $("ul li a").click(function(){
   $("ul li a").css("color", "");
   $(this).css("color", "#b9fc00");
 })
-
-
 
 
 $(window).scroll(function(){
@@ -137,18 +115,35 @@ $(window).scroll(function(){
 })
 
 
+$(window).scroll(function(){
+  if($(this).scrollTop() > 10){
+      $(".navbar").addClass("navbarAni");
+  }
+  else{
+
+      $(".navbar").removeClass("navbarAni");
+  }
+})
+
+
+                          /*Links*/
+
+
+
 $(".linkedIn").click(function(){
-  $('<a href="https://de.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" target="blank"></a>')[0].click();
+  $('<a href="https://www.linkedin.com/in/alper-caliskan-267306221/" target="blank"></a>')[0].click();
 })
 
 $(".github").click(function(){
-  $('<a href="https://github.com/" target="blank"></a>')[0].click();
+  $('<a href="https://github.com/alper42?tab=overview&from=2021-07-01&to=2021-07-31" target="blank"></a>')[0].click();
 })
 
 $(".linkedInNav").click(function(){
-  $('<a href="https://de.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" target="blank"></a>')[0].click();
+  $('<a href="https://www.linkedin.com/in/alper-caliskan-267306221/" target="blank"></a>')[0].click();
 })
 
 $(".githubNav").click(function(){
-  $('<a href="https://github.com/alper42" target="blank"></a>')[0].click();
+  $('<a href="https://github.com/alper42?tab=overview&from=2021-07-01&to=2021-07-31" target="blank"></a>')[0].click();
 })
+
+
