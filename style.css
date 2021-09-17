@@ -277,35 +277,60 @@ body{
     font-weight: bold;
     color: rgb(240, 240, 240);
 }
+.schule0{
+
+    position: absolute;
+    top: 233%;
+    left: 39.5%;
+    background: none;
+    width: 200px;
+    height: 25px;
+    transform: translate(-50%, -50%);
+
+}
 .schuleIcon{
 
     position: absolute;
-    top: 232.8%;
-    left: 33%;
+    top: 0;
+    left: 0;
     font-size: 27px;
     color:#caff3a;
     cursor: pointer;
+
 }
 .schule{
 
     position: absolute;
-    top: 235%;
-    left: 39.5%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    right: 0;
     font-size: 23px;
     color: #caff3a;
     border: none;
     font-family:'Comfortaa', cursive;
-    width: 210px;
     background: none;
-    text-align: end;
     cursor: pointer;
+    line-height: 1.5;
+    background: none;
+    width: 200px;
+    text-align: end;
+
+}
+.beruf0{
+
+    position: absolute;
+    top: 233%;
+    left: 60%;
+    background: none;
+    width: 233px;
+    height: 25px;
+    transform: translate(-50%, -50%);
+
 }
 .berufIcon{
 
     position: absolute;
-    top: 232.8%;
-    left: 52%;
+    top: 0;
+    left: 0;
     font-size: 27px;
     color: rgb(212, 212, 212);
     cursor: pointer;
@@ -313,18 +338,17 @@ body{
 .beruf{
 
     position: absolute;
-    top: 235%;
-    left: 59.5%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    right: 0;
     font-size: 23px;
     color: gray;
     border: none;
     background: none;
     font-family:'Comfortaa', cursive;
-    width: 240px;
-    background: none;
-    text-align: end;
     cursor: pointer;
+    line-height: 1.5;
+    width: 230px;
+    text-align: end;
 }
 button.selected{  
     
@@ -642,6 +666,7 @@ button.selected{
     top: 23%;
     left: 30%;
     color: rgb(146, 146, 146);
+    transform: translate(-50%, -50%);
 
 }
 .telefon{
@@ -652,38 +677,43 @@ button.selected{
     font-weight: bold;
     width: 110px;
     text-align: center;
+    transform: translate(-50%, -50%);
 }
 .mail{
 
     position: absolute;
     top: 23%;
-    left: 45%;
+    left: 50%;
     color: rgb(146, 146, 146);
+    transform: translate(-50%, -50%);
 }
 .email{
 
     position: absolute;
     top: 20%;
-    left: 45%;
+    left: 50%;
     font-weight: bold;
     width: 180px;
     text-align: center;
+    transform: translate(-50%, -50%);
 }
 .ort{
 
     position: absolute;
     top: 20%;
-    left: 65%;
+    left: 70%;
     font-weight: bold;
     width: 80px;
     text-align: center;
+    transform: translate(-50%, -50%);
 }
 .muc{
 
     position: absolute;
     top: 23%;
-    left: 65%;
+    left: 70%;
     color: rgb(146, 146, 146);
+    transform: translate(-50%, -50%);
 }
 .nameC{
 
@@ -817,16 +847,18 @@ button.selected{
 
     position: absolute;
     font-size: 15px;
-    top: 85.5%;
-    left: 43.5%;
+    top: 0;
+    left: 0;
     
 }
 .copy{
 
     position: absolute;
     top: 88%;
-    left: 51%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    width: 200px;
+    text-align: end;
 }
 .FooterArrowAusen{
 
