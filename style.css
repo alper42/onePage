@@ -925,9 +925,9 @@ ul{
 
     position: absolute;
     top: 65%;
-    left: 52%;
+    left: 75%;
     transform: translate(-50%, -50%);
-
+    width: 40%;
  
 
 }
@@ -969,37 +969,4 @@ ul li a:hover:after{
 ul li a:hover{
 
     color: grey;
-}
-.linkedInNav{
-
-    position: absolute;
-    font-size: 25px;
-    top: 65%;
-    left: 92%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-}
-.linkedInNav:hover{
-
-    background: -webkit-linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.githubNav{
-
-    position: absolute;
-    font-size: 25px;
-    top: 65%;
-    left: 95%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    transition: 0.3s;
-   
-
-}
-.githubNav:hover{
-
-    background: -webkit-linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
