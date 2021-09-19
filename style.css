@@ -629,7 +629,7 @@ button.selected{
 
     position: absolute;
     width: 1px;
-    top: 415%;
+    top: 420%;
 }
 .contact{
 
@@ -925,9 +925,9 @@ ul{
 
     position: absolute;
     top: 65%;
-    left: 75%;
+    left: 52%;
     transform: translate(-50%, -50%);
-    width: 40%;
+   
  
 
 }
@@ -969,4 +969,24 @@ ul li a:hover:after{
 ul li a:hover{
 
     color: grey;
+}
+.buttonZuKontaktNav a{
+
+    position: absolute;
+    width: 190px;
+    height: 35px;
+    background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+    top: 35%;
+    right: 5%;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 17px;
+    font-weight: bold;
+}
+.buttonZuKontaktNav a:hover{
+
+    background: linear-gradient(260deg, #c4da00, #a6e200, #25dd00);;
 }
