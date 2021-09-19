@@ -956,7 +956,7 @@ ul li a::after{
     height: 1.6px;
     width: 0;
     left: 0;
-    bottom: -16.5px;
+    bottom: -15.5px;
     transition: 0.3s;
 
 }
