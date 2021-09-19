@@ -953,7 +953,7 @@ ul li a::after{
     content: "";
     position: absolute;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    height: 1.6px;
+    height: 2px;
     width: 0;
     left: 0;
     bottom: -15.5px;
