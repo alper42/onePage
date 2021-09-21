@@ -147,3 +147,18 @@ $(".githubNav").click(function(){
 })
 
 
+
+                          /*Menu*/
+
+
+$(".menu2").click(function(){
+  $(".menu").toggleClass("menuAni")
+})
+
+$(".menu2").click(function(){
+  $(".menuStrich1").toggleClass("menuStrich1Ani")
+})
+
+$(".menu2").click(function(){
+  $(".menuStrich2").toggleClass("menuStrich2Ani")
+})
