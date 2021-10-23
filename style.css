@@ -1041,7 +1041,7 @@ ul li a:hover{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: bold;
-        
+        display: block;
     }
     .mein{
     
@@ -1065,6 +1065,7 @@ ul li a:hover{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transform: translate(-50%, -50%);
+        display: block;
     }
     .buttonZuKontakt a{
     
@@ -1855,7 +1856,7 @@ ul li a:hover{
     
         position: absolute;
         top: 50%;
-        left: 35%;
+        left: 34.5%;
         width: 25px;
         height: 1.5px;
         transform: rotate(45deg);
