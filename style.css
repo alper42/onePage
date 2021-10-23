@@ -1159,7 +1159,7 @@ ul li a:hover{
     
         position: absolute;
         width: 1px;
-        top: 100%;
+        top: 126%;
     }
     .grauerKasten{
     
@@ -1247,7 +1247,7 @@ ul li a:hover{
         top: 230%;
         left: 50%;
         background: none;
-        width: 200px;
+        width: 180px;
         height: 25px;
         transform: translate(-50%, -50%);
     
@@ -1257,7 +1257,7 @@ ul li a:hover{
         position: absolute;
         top: 0;
         left: 0;
-        font-size: 27px;
+        font-size: 25px;
         color:#caff3a;
         cursor: pointer;
     
@@ -1267,7 +1267,7 @@ ul li a:hover{
         position: absolute;
         top: 0;
         right: 0;
-        font-size: 23px;
+        font-size: 20px;
         color: #caff3a;
         border: none;
         font-family:'Comfortaa', cursive;
@@ -1293,7 +1293,7 @@ ul li a:hover{
         top: 243%;
         left: 50%;
         background: none;
-        width: 233px;
+        width: 205px;
         height: 25px;
         transform: translate(-50%, -50%);
     
@@ -1303,7 +1303,7 @@ ul li a:hover{
         position: absolute;
         top: 0;
         left: 0;
-        font-size: 27px;
+        font-size: 23px;
         color: rgb(212, 212, 212);
         cursor: pointer;
     }
@@ -1312,7 +1312,7 @@ ul li a:hover{
         position: absolute;
         top: 0;
         right: 0;
-        font-size: 23px;
+        font-size: 20px;
         color: gray;
         border: none;
         background: none;
@@ -1590,8 +1590,8 @@ ul li a:hover{
     .anschreibenText{
     
         position: absolute;
-        width: 50%;
-        top: 450%;
+        width: 80%;
+        top: 417%;
         left: 50%;
         transform: translate(-50%, -50%);
         color:rgb(146, 146, 146);
@@ -1607,7 +1607,7 @@ ul li a:hover{
     .contact{
     
         position: absolute;
-        top: 440%;
+        top: 505%;
         width: 100%;
         height: 800px;
         background: none;
@@ -1615,11 +1615,13 @@ ul li a:hover{
     .kontaktierMich{
     
         position: absolute;
-        top: 1%;
+        top: 0.5%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
+        width: 100%;
+        text-align: center;
     }
     .kontaktierMich2{
     
@@ -1627,16 +1629,16 @@ ul li a:hover{
         top: 0%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 42px;
         font-weight: bold;
         color: rgb(240, 240, 240);
-        width: 70%;
+        width: 100%;
         text-align: center;
     }
     .tel{
     
         position: absolute;
-        top: 23%;
+        top: 18%;
         left: 30%;
         color: rgb(146, 146, 146);
         transform: translate(-50%, -50%);
@@ -1645,7 +1647,7 @@ ul li a:hover{
     .telefon{
     
         position: absolute;
-        top: 20%;
+        top: 12%;
         left: 30%;
         font-weight: bold;
         width: 110px;
@@ -1655,16 +1657,16 @@ ul li a:hover{
     .mail{
     
         position: absolute;
-        top: 23%;
-        left: 50%;
+        top: 18%;
+        left: 70%;
         color: rgb(146, 146, 146);
         transform: translate(-50%, -50%);
     }
     .email{
     
         position: absolute;
-        top: 20%;
-        left: 50%;
+        top: 12%;
+        left: 70%;
         font-weight: bold;
         width: 180px;
         text-align: center;
@@ -1673,7 +1675,7 @@ ul li a:hover{
     .ort{
     
         position: absolute;
-        top: 20%;
+        top: 25%;
         left: 70%;
         font-weight: bold;
         width: 80px;
@@ -1768,7 +1770,7 @@ ul li a:hover{
         width: 100%;
         height: 300px;
         background: transparent;
-        top: 535%;
+        top: 610%;
     }
     .footerRand{
     
@@ -1776,7 +1778,7 @@ ul li a:hover{
         width: 95%;
         height: 300px;
         background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-        top: 535%;
+        top: 610%;
         border-top-right-radius: 50px;
     }
     .logoNameFooter{
@@ -1836,7 +1838,7 @@ ul li a:hover{
     .FooterArrowAusen{
     
         position: absolute;
-        top: 565%;
+        top: 650%;
         left: 97.5%;
         width: 50px;
         height: 50px;
@@ -1966,7 +1968,7 @@ ul li a:hover{
         height: 100%;
         background: rgba(207, 207, 207, 0.3);
         backdrop-filter: blur(10px);
-        top: 0%;
+        top: -100%;
         transition: 0.5s;
         opacity: 0;
 
@@ -1974,7 +1976,7 @@ ul li a:hover{
     .menuAni{
 
         opacity: 1;
-        
+        top: 0;
 
     }
     .buttonZuKontaktNav a{
