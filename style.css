@@ -1638,8 +1638,8 @@ ul li a:hover{
     .tel{
     
         position: absolute;
-        top: 18%;
-        left: 30%;
+        top: 17%;
+        left: 50%;
         color: rgb(146, 146, 146);
         transform: translate(-50%, -50%);
     
@@ -1648,7 +1648,7 @@ ul li a:hover{
     
         position: absolute;
         top: 12%;
-        left: 30%;
+        left: 50%;
         font-weight: bold;
         width: 110px;
         text-align: center;
@@ -1657,16 +1657,16 @@ ul li a:hover{
     .mail{
     
         position: absolute;
-        top: 18%;
-        left: 70%;
+        top: 30%;
+        left: 50%;
         color: rgb(146, 146, 146);
         transform: translate(-50%, -50%);
     }
     .email{
     
         position: absolute;
-        top: 12%;
-        left: 70%;
+        top: 25%;
+        left: 50%;
         font-weight: bold;
         width: 180px;
         text-align: center;
@@ -1675,8 +1675,8 @@ ul li a:hover{
     .ort{
     
         position: absolute;
-        top: 25%;
-        left: 70%;
+        top: 38%;
+        left: 50%;
         font-weight: bold;
         width: 80px;
         text-align: center;
@@ -1685,42 +1685,44 @@ ul li a:hover{
     .muc{
     
         position: absolute;
-        top: 23%;
-        left: 70%;
+        top: 43%;
+        left: 50%;
         color: rgb(146, 146, 146);
         transform: translate(-50%, -50%);
     }
     .nameC{
     
         position: absolute;
-        top: 35%;
-        left: 10%;
+        top: 53%;
+        left: 30%;
         border: none;
         background:rgb(240, 240, 240);
-        width: 150px;
+        width: 135px;
         height: 30px;
         padding-left: 10px;
         border-radius: 8px;
         outline: none;
+        transform: translate(-50%, -50%);
     }
     .vornameC{
     
         position: absolute;
-        top: 35%;
-        left: 50%;
+        top: 53%;
+        left: 70%;
         border: none;
         background:rgb(240, 240, 240);
-        width: 150px;
+        width: 135px;
         height: 30px;
         padding-left: 10px;
         border-radius: 8px;
         outline: none;
+        transform: translate(-50%, -50%);
     }
     .firmaC{
     
         position: absolute;
-        top: 42%;
-        left: 10%;
+        top: 59.5%;
+        left: 50%;
         border: none;
         background:rgb(240, 240, 240);
         width: 300px;
@@ -1728,12 +1730,13 @@ ul li a:hover{
         padding-left: 10px;
         border-radius: 8px;
         outline: none;
+        transform: translate(-50%, -50%);
     }
     .nachrichtC{
     
         position: absolute;
-        top: 49%;
-        left: 10%;
+        top: 70%;
+        left: 50%;
         border: none;
         background:rgb(240, 240, 240);
         width: 300px;
@@ -1741,6 +1744,7 @@ ul li a:hover{
         padding-left: 10px;
         border-radius: 8px;
         outline: none;
+        transform: translate(-50%, -50%);
     }
     .senden{
     
@@ -1749,7 +1753,7 @@ ul li a:hover{
         height: 50px;
         background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
         border-radius: 50px;
-        top: 70%;
+        top: 85%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 20px;
@@ -1769,16 +1773,16 @@ ul li a:hover{
         position: absolute;
         width: 100%;
         height: 300px;
-        background: transparent;
-        top: 610%;
+        background: none;
+        top: 620%;
     }
     .footerRand{
     
         position: absolute;
-        width: 95%;
+        width: 85%;
         height: 300px;
         background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-        top: 610%;
+        top: 620%;
         border-top-right-radius: 50px;
     }
     .logoNameFooter{
@@ -1789,13 +1793,14 @@ ul li a:hover{
         transform: translate(-50%, -50%);
         font-size: 30px;
         font-weight: bold;
+        text-align: center;
     }
     .linkedIn{
     
         position: absolute;
         font-size: 25px;
         top: 45%;
-        left: 48%;
+        left: 42%;
         transform: translate(-50%, -50%);
         cursor: pointer;
         transition: 0.15s;
@@ -1809,7 +1814,7 @@ ul li a:hover{
         position: absolute;
         font-size: 25px;
         top: 45%;
-        left: 52%;
+        left: 58%;
         transform: translate(-50%, -50%);
         cursor: pointer;
         transition: 0.15s;
@@ -1822,9 +1827,9 @@ ul li a:hover{
     
         position: absolute;
         font-size: 15px;
-        top: 0;
+        top: 50%;
         left: 0;
-        
+        transform: translate(-50%, -50%);
     }
     .copy{
     
@@ -1838,8 +1843,8 @@ ul li a:hover{
     .FooterArrowAusen{
     
         position: absolute;
-        top: 650%;
-        left: 97.5%;
+        top: 655%;
+        left: 93%;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -1850,8 +1855,8 @@ ul li a:hover{
     
         position: absolute;
         top: 50%;
-        left: 41.5%;
-        width: 30px;
+        left: 35%;
+        width: 25px;
         height: 1.5px;
         transform: rotate(45deg);
         background: black;
@@ -1862,7 +1867,7 @@ ul li a:hover{
         position: absolute;
         top: 50%;
         left: 0%;
-        width: 30px;
+        width: 25px;
         height: 1.5px;
         transform: rotate(135deg);
         background: black;
