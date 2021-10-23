@@ -1167,26 +1167,28 @@ ul li a:hover{
         top: 115%;
         background: rgb(245, 245, 245);
         width: 100%;
-        height: 60%;
+        height: 80%;
     }
     .uberMich{
     
         position: absolute;
-        top: 130%;
+        top: 126%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
     }
     .uberMich2{
     
         position: absolute;
-        top: 129%;
+        top: 125%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bold;
-        color: rgb(240, 240, 240);
+        color: rgb(255, 255, 255);
+        width: 100%;
+        text-align: center;
     }
     .uberMichT{
     
@@ -1194,7 +1196,7 @@ ul li a:hover{
         width: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        top: 150%;
+        top: 160%;
         color: rgb(146, 146, 146);
         line-height: 1.4;
         text-align: center;
@@ -1202,10 +1204,10 @@ ul li a:hover{
     .strichUber{
     
         position: absolute;
-        width: 250px;
+        width: 170px;
         height: 1.5px;
         background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-        top: 160%;
+        top: 190%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -1223,27 +1225,27 @@ ul li a:hover{
     .lebenslauf{
     
         position: absolute;
-        top: 210%;
+        top: 215%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
     }
     .lebenslauf2{
     
         position: absolute;
-        top: 209%;
+        top: 214%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bold;
         color: rgb(240, 240, 240);
     }
     .schule0{
     
         position: absolute;
-        top: 233%;
-        left: 39.5%;
+        top: 230%;
+        left: 50%;
         background: none;
         width: 200px;
         height: 25px;
@@ -1277,11 +1279,19 @@ ul li a:hover{
         text-align: end;
     
     }
+    .oder{
+
+        position: absolute;
+        top: 237%;
+        font-size: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
     .beruf0{
     
         position: absolute;
-        top: 233%;
-        left: 60%;
+        top: 243%;
+        left: 50%;
         background: none;
         width: 233px;
         height: 25px;
@@ -1322,7 +1332,7 @@ ul li a:hover{
     .schulbildungbox{
     
         position: absolute;
-        top: 269%;
+        top: 282%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 600px;
@@ -1332,7 +1342,7 @@ ul li a:hover{
     .baum{
     
         position: absolute;
-        top: 273%;
+        top: 287%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 150px;
@@ -1561,8 +1571,9 @@ ul li a:hover{
         top: 330%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
+
     }
     .anschreiben2{
     
@@ -1570,17 +1581,17 @@ ul li a:hover{
         top: 329%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 55px;
         font-weight: bold;
         color: rgb(240, 240, 240);
-        width: 70%;
+        width: 100%;
         text-align: center;
     }
     .anschreibenText{
     
         position: absolute;
         width: 50%;
-        top: 377%;
+        top: 450%;
         left: 50%;
         transform: translate(-50%, -50%);
         color:rgb(146, 146, 146);
