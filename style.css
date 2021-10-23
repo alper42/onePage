@@ -1061,7 +1061,7 @@ ul li a:hover{
         top: 65%;
         left: 205%;
         font-size: 30px;
-        background: -webkit-linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+        background: -webkit-linear-gradient(260deg, rgba(229, 255, 0), rgba(183, 250, 0), rgba(42, 250, 0));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transform: translate(-50%, -50%);
