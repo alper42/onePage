@@ -1182,7 +1182,7 @@ ul li a:hover{
         top: 129%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 100px;
+        font-size: 50px;
         font-weight: bold;
         color: rgb(240, 240, 240);
     }
@@ -1233,7 +1233,7 @@ ul li a:hover{
         top: 209%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 100px;
+        font-size: 50px;
         font-weight: bold;
         color: rgb(240, 240, 240);
     }
@@ -1568,7 +1568,7 @@ ul li a:hover{
         top: 329%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 100px;
+        font-size: 50px;
         font-weight: bold;
         color: rgb(240, 240, 240);
         width: 70%;
@@ -1614,7 +1614,7 @@ ul li a:hover{
         top: 0%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 100px;
+        font-size: 50px;
         font-weight: bold;
         color: rgb(240, 240, 240);
         width: 70%;
