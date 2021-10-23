@@ -1679,10 +1679,10 @@ ul li a:hover{
     
         position: absolute;
         top: 35%;
-        left: 36%;
+        left: 10%;
         border: none;
         background:rgb(240, 240, 240);
-        width: 200px;
+        width: 150px;
         height: 30px;
         padding-left: 10px;
         border-radius: 8px;
@@ -1692,10 +1692,10 @@ ul li a:hover{
     
         position: absolute;
         top: 35%;
-        left: 52%;
+        left: 50%;
         border: none;
         background:rgb(240, 240, 240);
-        width: 200px;
+        width: 150px;
         height: 30px;
         padding-left: 10px;
         border-radius: 8px;
@@ -1705,10 +1705,10 @@ ul li a:hover{
     
         position: absolute;
         top: 42%;
-        left: 36%;
+        left: 10%;
         border: none;
         background:rgb(240, 240, 240);
-        width: 445px;
+        width: 300px;
         height: 30px;
         padding-left: 10px;
         border-radius: 8px;
@@ -1718,10 +1718,10 @@ ul li a:hover{
     
         position: absolute;
         top: 49%;
-        left: 36%;
+        left: 10%;
         border: none;
         background:rgb(240, 240, 240);
-        width: 445px;
+        width: 300px;
         height: 100px;
         padding-left: 10px;
         border-radius: 8px;
@@ -1909,7 +1909,7 @@ ul li a:hover{
         position: fixed;
         width: 50px;
         height: 2px;
-        top: 3%;
+        top: 5%;
         right: 10%;
         background: gray;
         transition: 0.35s;
@@ -1925,7 +1925,7 @@ ul li a:hover{
         position: fixed;
         width: 50px;
         height: 2px;
-        top: 4%;
+        top: 6%;
         right: 10%;
         background: gray;
         transition: 0.35s;
