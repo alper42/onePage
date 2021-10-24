@@ -149,7 +149,7 @@ body{
     overflow: hidden;
     box-shadow: 0px 0px 50px 10px #bbff00;
     border: 2px solid rgb(255, 255, 255);
-    animation: pol 2s ease-in  ; 
+    animation: pol 2s ease-in; 
 }
 @keyframes pol{
 
@@ -920,7 +920,7 @@ button.selected{
 }
 .türkischBalkenAni{
 
-    width: 60%;
+    width: 70%;
 }
 .türkischKenntnisse{
 
