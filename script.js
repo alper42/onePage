@@ -199,6 +199,10 @@ $(".menu2").click(function(){
 })
 
 $("li").click(function(){
+  $(".menuGrey").toggleClass("menuGreyAni")
+})
+
+$("li").click(function(){
   $(".menu").toggleClass("menuAni")
 })
 
