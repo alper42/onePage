@@ -184,3 +184,7 @@ $(window).scroll(function(){
       $(".javaKasten2").removeClass("javaKasten2Ani");
   }
 })
+
+$(".menu2").click(function(){
+  $(".menuGrey").toggleClass("menuGreyAni")
+})
