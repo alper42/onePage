@@ -11,6 +11,8 @@ body{
     font-family:'Comfortaa', cursive;
     transition: 0.5s;
     /*font-family: 'Megrim', cursive;*/
+    /*linear-gradient(260deg, rgb(255, 126, 126), rgb(255, 60, 60), rgb(250, 0, 0));*/
+    /*linear-gradient(260deg, rgb(170, 204, 255), rgb(43, 128, 255), rgb(0, 102, 255));*/
 }
 ::-webkit-scrollbar{
 
@@ -706,7 +708,7 @@ button.selected{
     top: 0;
     width: 150px;
     height: 150px;
-    background: linear-gradient(260deg, rgb(255, 126, 126), rgb(255, 60, 60), rgb(250, 0, 0));
+    background: linear-gradient(260deg, rgb(215, 255, 237), rgb(63, 255, 166), rgb(0, 255, 136));
     transition: 0.5s;
     
 }
@@ -821,7 +823,7 @@ button.selected{
     top: 0;
     width: 150px;
     height: 150px;
-    background: linear-gradient(260deg, rgb(170, 204, 255), rgb(43, 128, 255), rgb(0, 102, 255));
+    background: linear-gradient(260deg, rgb(255, 199, 242),rgb(233, 67, 255), rgb(225, 0, 255));
     transition: 0.5s;
     
 }
