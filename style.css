@@ -149,6 +149,19 @@ body{
     overflow: hidden;
     box-shadow: 0px 0px 60px 15px #bbff00;
     border: 2px solid rgb(255, 255, 255);
+    animation: pol 2s ease-in  ;
+}
+@keyframes pol{
+
+    0%{
+        box-shadow: 0px 0px 0px 0px #bbff00;
+
+    }
+    100%{
+        box-shadow: 0px 0px 60px 15px #bbff00;
+
+    }
+
 }
 .mouseStrich{
 
@@ -233,12 +246,18 @@ body{
 .strichUber{
 
     position: absolute;
-    width: 250px;
+    width: 0px;
     height: 1.5px;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
     top: 160%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+.strichUberAni{
+
+    width: 250px;
+
 }
 
 
@@ -505,35 +524,53 @@ button.selected{
 .strich1{
 
     position: absolute;
-    width: 150px;
+    width: 0px;
     height: 3px;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    top: 16%;
+    top: -2%;
     left: 0%;
     transform: rotate(45deg);
     border-radius: 20px;
+    transition: 0.4s;
+}
+.strich1Ani{
+
+    width: 150px;
+    top: 16%;
 }
 .strich2{
 
     position: absolute;
-    width: 150px;
+    width: 0px;
     height: 3px;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    top: 42%;
+    top: 60%;
     left: 0%;
     transform: rotate(-45deg);
     border-radius: 20px;
+    transition: 0.4s;
+}
+.strich2Ani{
+
+    width: 150px;
+    top: 42%;
 }
 .strich3{
 
     position: absolute;
-    width: 150px;
+    width: 0px;
     height: 3px;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    top: 68%;
+    top: 50%;
     left: 0%;
     transform: rotate(45deg);
     border-radius: 20px;
+    transition: 0.4s;
+}
+.strich3Ani{
+
+    width: 150px;
+    top: 68%;
 }
 .kreis1{
 
@@ -579,7 +616,7 @@ button.selected{
 
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 80%;
     background: rgb(245, 245, 245);
     top: 310%;
 }
@@ -787,6 +824,107 @@ button.selected{
 
     right: 0%;
 }
+.sprachen{
+
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    top: 375%;
+    background: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+
+}
+.englisch{
+
+    position: absolute;
+    left: 0;
+    top: 5%;
+
+}
+.englischBalken{
+
+    position: absolute;
+    top: 10%;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+    left: 15%;
+    border-radius: 200px;
+    transition: 0.7s;
+}
+.englischBalkenAni{
+
+    width: 35%;
+
+}
+.englischKenntnisse{
+
+    position: absolute;
+    right: -8%;
+    top: 5%;
+
+}
+.deutsch{
+
+    position: absolute;
+    left: 0;
+    top: 35%;
+
+}
+.deutschBalken{
+
+    position: absolute;
+    top: 40%;
+    width: 0%;
+    height: 3px;
+    background:linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+    left: 15%;
+    border-radius: 200px;
+    transition: 0.7s;
+}
+.deutschBalkenAni{
+
+    width: 70%;
+}
+.deutschKenntnisse{
+
+    position: absolute;
+    right: -8%;
+    top: 35%;
+
+}
+.türkisch{
+
+    position: absolute;
+    left: 0;
+    top: 65%;
+
+}
+.türkischBalken{
+
+    position: absolute;
+    top: 70%;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+    left: 15%;
+    border-radius: 200px;
+    transition: 0.7s;
+}
+.türkischBalkenAni{
+
+    width: 60%;
+}
+.türkischKenntnisse{
+
+    position: absolute;
+    right: -8%;
+    top: 65%;
+
+}
+
                             /*Anschreiben*/
 
 
@@ -794,12 +932,12 @@ button.selected{
 
     position: absolute;
     width: 1px;
-    top: 305%;
+    top: 390%;
 }
 .anschreiben{
 
     position: absolute;
-    top: 370%;
+    top: 415%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
@@ -808,7 +946,7 @@ button.selected{
 .anschreiben2{
 
     position: absolute;
-    top: 369%;
+    top: 414%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
@@ -821,7 +959,7 @@ button.selected{
 
     position: absolute;
     width: 50%;
-    top: 377%;
+    top: 460%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:rgb(146, 146, 146);
@@ -832,12 +970,12 @@ button.selected{
 
     position: absolute;
     width: 1px;
-    top: 420%;
+    top: 490%;
 }
 .contact{
 
     position: absolute;
-    top: 440%;
+    top: 510%;
     width: 100%;
     height: 800px;
     background: none;
@@ -998,7 +1136,7 @@ button.selected{
     width: 100%;
     height: 300px;
     background: transparent;
-    top: 535%;
+    top: 600%;
 }
 .footerRand{
 
@@ -1006,7 +1144,7 @@ button.selected{
     width: 95%;
     height: 300px;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-    top: 535%;
+    top: 600%;
     border-top-right-radius: 50px;
 }
 .logoNameFooter{
@@ -1049,24 +1187,43 @@ button.selected{
 .copyIcon{
 
     position: absolute;
-    font-size: 15px;
-    top: 0;
+    font-size: 12px;
+    top: 10%;
     left: 0;
     
 }
 .copy{
 
     position: absolute;
-    top: 88%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
+    width: 150px;
     text-align: end;
+    font-size: 14px;
+}
+.copyIconMenu{
+
+    position: absolute;
+    font-size: 10px;
+    top: 50%;
+    left: -8%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.copyMenu{
+
+    position: absolute;
+    font-size: 13px;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
 }
 .FooterArrowAusen{
 
     position: absolute;
-    top: 565%;
+    top: 630%;
     left: 97.5%;
     width: 50px;
     height: 50px;
@@ -1236,7 +1393,7 @@ ul li a:hover{
         position: absolute;
         width: 260px;
         height: 50px;
-        top: 25%;
+        top: 23%;
         left: 50%;
         font-size: 15px;
         transform: translate(-50%, -50%);
@@ -1258,7 +1415,7 @@ ul li a:hover{
         position: absolute;
         width: 100px;
         height: 100px;
-        top: 85%;
+        top: 90%;
         left: 30%;
         font-size: 20px;
         transform: translate(-50%, -50%);
@@ -1415,12 +1572,18 @@ ul li a:hover{
     .strichUber{
     
         position: absolute;
-        width: 170px;
+        width: 0px;
         height: 1.5px;
         background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
         top: 190%;
         left: 50%;
         transform: translate(-50%, -50%);
+        transition: 0.5s;
+    }
+    .strichUberAni{
+
+        width: 170px;
+    
     }
     
     
@@ -1781,7 +1944,7 @@ ul li a:hover{
 
         position: absolute;
         width: 100%;
-        height: 70%;
+        height: 120%;
         background: rgb(245, 245, 245);
         top: 310%;
     }
@@ -1845,7 +2008,106 @@ ul li a:hover{
         border-radius: 25px;
         overflow: hidden;
     }
+    .sprachen{
 
+        position: absolute;
+        width: 85%;
+        height: 30%;
+        top: 410%;
+        background: none;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     
+    
+    }
+    .englisch{
+    
+        position: absolute;
+        left: 0;
+        top: 5%;
+    
+    }
+    .englischBalken{
+    
+        position: absolute;
+        top: 0%;
+        width: 0%;
+        height: 3px;
+        background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+        left: 0%;
+        border-radius: 200px;
+        transition: 0.7s;
+    }
+    .englischBalkenAni{
+    
+        width: 35%;
+    
+    }
+    .englischKenntnisse{
+    
+        position: absolute;
+        right: 0%;
+        top: 5%;
+    
+    }
+    .deutsch{
+    
+        position: absolute;
+        left: 0;
+        top: 40%;
+    
+    }
+    .deutschBalken{
+    
+        position: absolute;
+        top: 35%;
+        width: 0%;
+        height: 3px;
+        background:linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+        left: 0%;
+        border-radius: 200px;
+        transition: 0.7s;
+    }
+    .deutschBalkenAni{
+    
+        width: 100%;
+    }
+    .deutschKenntnisse{
+    
+        position: absolute;
+        right: 0%;
+        top: 40%;
+    
+    }
+    .türkisch{
+    
+        position: absolute;
+        left: 0;
+        top: 75%;
+    
+    }
+    .türkischBalken{
+    
+        position: absolute;
+        top: 70%;
+        width: 0%;
+        height: 3px;
+        background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+        left: 0%;
+        border-radius: 200px;
+        transition: 0.7s;
+    }
+    .türkischBalkenAni{
+    
+        width: 65%;
+    }
+    .türkischKenntnisse{
+    
+        position: absolute;
+        right: 0%;
+        top: 75%;
+    
+    }
 
                                 /*Anschreiben*/
     
@@ -1854,12 +2116,12 @@ ul li a:hover{
     
         position: absolute;
         width: 1px;
-        top: 305%;
+        top: 600%;
     }
     .anschreiben{
     
         position: absolute;
-        top: 400%;
+        top: 450%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 25px;
@@ -1869,7 +2131,7 @@ ul li a:hover{
     .anschreiben2{
     
         position: absolute;
-        top: 399%;
+        top: 449%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 55px;
@@ -1882,7 +2144,7 @@ ul li a:hover{
     
         position: absolute;
         width: 80%;
-        top: 480%;
+        top: 540%;
         left: 50%;
         transform: translate(-50%, -50%);
         color:rgb(146, 146, 146);
@@ -1898,7 +2160,7 @@ ul li a:hover{
     .contact{
     
         position: absolute;
-        top: 505%;
+        top: 635%;
         width: 100%;
         height: 800px;
         background: none;
@@ -2065,7 +2327,7 @@ ul li a:hover{
         width: 100%;
         height: 300px;
         background: none;
-        top: 620%;
+        top: 760%;
     }
     .footerRand{
     
@@ -2073,7 +2335,7 @@ ul li a:hover{
         width: 85%;
         height: 300px;
         background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-        top: 620%;
+        top: 760%;
         border-top-right-radius: 50px;
     }
     .logoNameFooter{
@@ -2136,7 +2398,7 @@ ul li a:hover{
     .FooterArrowAusen{
     
         position: absolute;
-        top: 655%;
+        top: 795%;
         left: 93%;
         width: 50px;
         height: 50px;

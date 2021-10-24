@@ -202,3 +202,79 @@ $("li").click(function(){
   $(".menuStrich2").toggleClass("menuStrich2Ani")
 })
 
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 2100){
+      $(".englischBalken").addClass("englischBalkenAni");
+  }
+  else{
+
+      $(".englischBalken").removeClass("englischBalkenAni");
+  }
+})
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 2100){
+      $(".deutschBalken").addClass("deutschBalkenAni");
+  }
+  else{
+
+      $(".deutschBalken").removeClass("deutschBalkenAni");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 2100){
+      $(".türkischBalken").addClass("türkischBalkenAni");
+  }
+  else{
+
+      $(".türkischBalken").removeClass("türkischBalkenAni");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 1430){
+      $(".strich1").addClass("strich1Ani");
+  }
+  else{
+
+      $(".strich1").removeClass("strich1Ani");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 1430){
+      $(".strich2").addClass("strich2Ani");
+  }
+  else{
+
+      $(".strich2").removeClass("strich2Ani");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 1430){
+      $(".strich3").addClass("strich3Ani");
+  }
+  else{
+
+      $(".strich3").removeClass("strich3Ani");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 600){
+      $(".strichUber").addClass("strichUberAni");
+  }
+  else{
+
+      $(".strichUber").removeClass("strichUberAni");
+  }
+})
