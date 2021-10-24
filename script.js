@@ -162,3 +162,25 @@ $(".menu2").click(function(){
 $(".menu2").click(function(){
   $(".menuStrich2").toggleClass("menuStrich2Ani")
 })
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 1900){
+      $(".htmlKasten2").addClass("htmlKasten2Ani");
+  }
+  else{
+
+      $(".htmlKasten2").removeClass("htmlKasten2Ani");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 1900){
+      $(".javaKasten2").addClass("javaKasten2Ani");
+  }
+  else{
+
+      $(".javaKasten2").removeClass("javaKasten2Ani");
+  }
+})
