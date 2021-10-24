@@ -147,9 +147,9 @@ body{
     background-color: rgb(250, 250, 250);
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0px 0px 60px 15px #bbff00;
+    box-shadow: 0px 0px 50px 10px #bbff00;
     border: 2px solid rgb(255, 255, 255);
-    animation: pol 2s ease-in  ;
+    animation: pol 2s ease-in  ; 
 }
 @keyframes pol{
 
@@ -157,12 +157,17 @@ body{
         box-shadow: 0px 0px 0px 0px #bbff00;
 
     }
+    50%{
+        box-shadow: 0px 0px 200px 30px #bbff00;
+
+    }
     100%{
-        box-shadow: 0px 0px 60px 15px #bbff00;
+        box-shadow: 0px 0px 50px 10px #bbff00;
 
     }
 
 }
+
 .mouseStrich{
 
     position: absolute;
@@ -1333,6 +1338,10 @@ ul li a:hover{
 
     color: grey;
 }
+.contactMenu{
+
+    display: none;
+}
 .buttonZuKontaktNav a{
 
     position: absolute;
@@ -1404,7 +1413,7 @@ ul li a:hover{
         top: 0;
         left: 74%;
         font-size: 16px;
-        background: -webkit-linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+        background: -webkit-linear-gradient(85deg, #e5ff00, #b9fc00, #2afc00);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: bold;
@@ -1428,7 +1437,7 @@ ul li a:hover{
         top: 65%;
         left: 205%;
         font-size: 30px;
-        background: -webkit-linear-gradient(260deg, rgba(229, 255, 0), rgba(183, 250, 0), rgba(42, 250, 0));
+        background: -webkit-linear-gradient(40deg, rgba(229, 255, 0), rgba(183, 250, 0), rgba(42, 250, 0));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transform: translate(-50%, -50%);
@@ -1484,7 +1493,6 @@ ul li a:hover{
         background-color: rgb(250, 250, 250);
         border-radius: 50%;
         overflow: hidden;
-        box-shadow: 0px 0px 60px 15px #bbff00;
         border: 2px solid rgb(255, 255, 255);
     }
     .mouseStrich{
@@ -1527,7 +1535,7 @@ ul li a:hover{
     
         position: absolute;
         width: 1px;
-        top: 126%;
+        top: 105%;
     }
     .grauerKasten{
     
@@ -1594,7 +1602,7 @@ ul li a:hover{
     
         position: absolute;
         width: 1px;
-        top: 185%;
+        top: 195%;
     }
     .lebenslauf{
     
@@ -2116,7 +2124,7 @@ ul li a:hover{
     
         position: absolute;
         width: 1px;
-        top: 600%;
+        top: 430%;
     }
     .anschreiben{
     
@@ -2247,7 +2255,7 @@ ul li a:hover{
     
         position: absolute;
         top: 53%;
-        left: 30%;
+        left: 29%;
         border: none;
         background:rgb(240, 240, 240);
         width: 135px;
@@ -2261,7 +2269,7 @@ ul li a:hover{
     
         position: absolute;
         top: 53%;
-        left: 70%;
+        left: 71%;
         border: none;
         background:rgb(240, 240, 240);
         width: 135px;
@@ -2447,7 +2455,7 @@ ul li a:hover{
     ul{
     
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
     
@@ -2468,7 +2476,14 @@ ul li a:hover{
         width: 100%;
         font-size: 20px;
     }
+    .contactMenu{
 
+        position: absolute;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-top: 60px;
+    }
     .menuStrich1{
 
         position: fixed;
@@ -2585,7 +2600,7 @@ ul li a:hover{
         top: 95%;
         left: 50%;
         transform: translate(-50%, -50%);
-
+        display: flex;
     }
     .copyIconMenu{
 
@@ -2594,7 +2609,7 @@ ul li a:hover{
         top: 50%;
         left: -8%;
         transform: translate(-50%, -50%);
-
+        display: flex;
     }
     .buttonZuKontaktNav a{
 
