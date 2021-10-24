@@ -14,7 +14,7 @@ $(".beruf").click(function(){
   });
 
   $(".schule").click(function(){
-    $(".samberger").html("Mittelschule an der Sambergerstraße");
+    $(".samberger").html("Samberger Mittelschule");
   });
 
   $('button').on('click', function(){  
