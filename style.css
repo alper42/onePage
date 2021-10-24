@@ -2163,7 +2163,7 @@ ul li a:hover{
     
         position: absolute;
         width: 1px;
-        top: 420%;
+        top: 620%;
     }
     .contact{
     
@@ -2475,6 +2475,7 @@ ul li a:hover{
         text-align: center;
         width: 100%;
         font-size: 20px;
+        font-weight: bold;
     }
     .contactMenu{
 
@@ -2482,7 +2483,7 @@ ul li a:hover{
         display: flex;
         left: 50%;
         transform: translate(-50%, -50%);
-        padding-top: 60px;
+        top: 110%;
     }
     .menuStrich1{
 

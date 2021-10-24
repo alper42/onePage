@@ -139,6 +139,14 @@ $(".github").click(function(){
   $('<a href="https://github.com/alper42?tab=overview&from=2021-07-01&to=2021-07-31" target="blank"></a>')[0].click();
 })
 
+$(".linkedInMenu").click(function(){
+  $('<a href="https://www.linkedin.com/in/alper-caliskan-267306221/" target="blank"></a>')[0].click();
+})
+
+$(".githubMenu").click(function(){
+  $('<a href="https://github.com/alper42?tab=overview&from=2021-07-01&to=2021-07-31" target="blank"></a>')[0].click();
+})
+
 $(".linkedInNav").click(function(){
   $('<a href="https://www.linkedin.com/in/alper-caliskan-267306221/" target="blank"></a>')[0].click();
 })
