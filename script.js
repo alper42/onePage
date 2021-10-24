@@ -104,6 +104,7 @@ $("ul li a").click(function(){
 })
 
 
+
 $(window).scroll(function(){
   if($(this).scrollTop() > 10){
       $(".navbar").addClass("navbarAni");
@@ -188,3 +189,16 @@ $(window).scroll(function(){
 $(".menu2").click(function(){
   $(".menuGrey").toggleClass("menuGreyAni")
 })
+
+$("li").click(function(){
+  $(".menu").toggleClass("menuAni")
+})
+
+$("li").click(function(){
+  $(".menuStrich1").toggleClass("menuStrich1Ani")
+})
+
+$("li").click(function(){
+  $(".menuStrich2").toggleClass("menuStrich2Ani")
+})
+
