@@ -16,11 +16,11 @@ body{
 }
 ::-webkit-scrollbar{
 
-    width: 4px;
+    width: 6px;
 }
 ::-webkit-scrollbar-thumb{
     
-    border-radius: 10px;
+    border-radius: 200px;
     background: linear-gradient(180deg, #e5ff00, #b9fc00, #2afc00);
     
 }
