@@ -1168,33 +1168,18 @@ button.selected{
     font-size: 30px;
     font-weight: bold;
 }
-.linkedIn{
+.logoFooter img{
 
     position: absolute;
-    font-size: 25px;
-    top: 45%;
-    left: 48%;
+    width: 100px;
+    height: 100px;
+    top: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    cursor: pointer;
-    transition: 0.15s;
 }
-.linkedIn:hover{
+.logoFooterMenu img{
 
-    color: white;
-}
-.github{
-
-    position: absolute;
-    font-size: 25px;
-    top: 45%;
-    left: 52%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-    transition: 0.15s;
-}
-.github:hover{
-
-    color: white;
+    display: none;
 }
 .copyIcon{
 
@@ -2368,33 +2353,14 @@ ul li a:hover{
         font-weight: bold;
         text-align: center;
     }
-    .linkedIn{
-    
+    .logoFooter img{
+
         position: absolute;
-        font-size: 25px;
-        top: 45%;
-        left: 42%;
+        width: 60px;
+        height: 60px;
+        top: 55%;
+        left: 50%;
         transform: translate(-50%, -50%);
-        cursor: pointer;
-        transition: 0.15s;
-    }
-    .linkedIn:hover{
-    
-        color: white;
-    }
-    .github{
-    
-        position: absolute;
-        font-size: 25px;
-        top: 45%;
-        left: 58%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
-        transition: 0.15s;
-    }
-    .github:hover{
-    
-        color: white;
     }
     .copyIcon{
     
@@ -2586,25 +2552,15 @@ ul li a:hover{
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .githubMenu{
+ 
+    .logoFooterMenu img{
 
         position: absolute;
-        font-size: 25px;
+        width: 30px;
+        height: 30px;
         top: 90%;
-        left: 58%;
+        left: 50%;
         transform: translate(-50%, -50%);
-        cursor: pointer;
-        transition: 0.15s;
-    }
-    .linkedInMenu{
-
-        position: absolute;
-        font-size: 25px;
-        top: 90%;
-        left: 42%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
-        transition: 0.15s;
     }
     .copyMenu{
 
