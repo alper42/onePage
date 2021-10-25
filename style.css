@@ -1171,8 +1171,8 @@ button.selected{
 .logoFooter img{
 
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -2561,6 +2561,10 @@ ul li a:hover{
         top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    .logoFooterMenu img{
+
+        display: flex;
     }
     .copyMenu{
 
