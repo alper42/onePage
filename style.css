@@ -1422,7 +1422,7 @@ ul li a:hover{
         font-size: 20px;
         transform: translate(-50%, -50%);
     }
-    .name{
+    .name, span{
     
         position: absolute;
         width: 100px;
@@ -1430,10 +1430,7 @@ ul li a:hover{
         top: 65%;
         left: 205%;
         font-size: 30px;
-        background: #2AFC00;
-        background: -webkit-linear-gradient(to right, #2AFC00 0%, #E5FF00 70%);
-        background: -moz-linear-gradient(to right, #2AFC00 0%, #E5FF00 70%);
-        background: linear-gradient(to right, #2AFC00 0%, #E5FF00 70%);
+        background: -webkit-linear-gradient(40deg, rgba(229, 255, 0), rgba(183, 250, 0), rgba(42, 250, 0));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transform: translate(-50%, -50%);
