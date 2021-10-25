@@ -676,7 +676,7 @@ button.selected{
     transform: translate(-50%, -50%);
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    background: -webkit-linear-gradient(260deg, rgb(156, 255, 209), rgb(0, 255, 136), rgb(0, 116, 62));
+    background-image: -webkit-linear-gradient(260deg, rgba(156, 255, 209), rgb(0, 255, 136), rgb(0, 116, 62));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
