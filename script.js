@@ -1,4 +1,19 @@
-                          /*Lebenslauf*/
+                        /*überMich*/
+
+                        
+$(window).scroll(function(){
+  if($(this).scrollTop() > 600){
+      $(".strichUber").addClass("strichUberAni");
+  }
+  else{
+
+      $(".strichUber").removeClass("strichUberAni");
+  }
+})
+
+
+
+                        /*Lebenslauf*/
 
 
 $(".beruf").click(function(){
@@ -95,157 +110,7 @@ $(".beruf").click(function(){
 });
 
 
-                          /*Nav*/
 
-
-$("ul li a").click(function(){
-  $("ul li a").css("color", "");
-  $(this).css("color", "#b9fc00");
-})
-
-
-
-$(window).scroll(function(){
-  if($(this).scrollTop() > 10){
-      $(".navbar").addClass("navbarAni");
-  }
-  else{
-
-      $(".navbar").removeClass("navbarAni");
-  }
-})
-
-
-$(window).scroll(function(){
-  if($(this).scrollTop() > 10){
-      $(".navbar").addClass("navbarAni");
-  }
-  else{
-
-      $(".navbar").removeClass("navbarAni");
-  }
-})
-
-
-                          /*Links*/
-
-
-
-$(".linkedIn").click(function(){
-  $('<a href="https://www.linkedin.com/in/alper-caliskan-267306221/" target="blank"></a>')[0].click();
-})
-
-$(".github").click(function(){
-  $('<a href="https://github.com/alper42?tab=overview&from=2021-07-01&to=2021-07-31" target="blank"></a>')[0].click();
-})
-
-$(".linkedInMenu").click(function(){
-  $('<a href="https://www.linkedin.com/in/alper-caliskan-267306221/" target="blank"></a>')[0].click();
-})
-
-$(".githubMenu").click(function(){
-  $('<a href="https://github.com/alper42?tab=overview&from=2021-07-01&to=2021-07-31" target="blank"></a>')[0].click();
-})
-
-$(".linkedInNav").click(function(){
-  $('<a href="https://www.linkedin.com/in/alper-caliskan-267306221/" target="blank"></a>')[0].click();
-})
-
-$(".githubNav").click(function(){
-  $('<a href="https://github.com/alper42?tab=overview&from=2021-07-01&to=2021-07-31" target="blank"></a>')[0].click();
-})
-
-
-
-                          /*Menu*/
-
-
-$(".menu2").click(function(){
-  $(".menu").toggleClass("menuAni")
-})
-
-$(".menu2").click(function(){
-  $(".menuStrich1").toggleClass("menuStrich1Ani")
-})
-
-$(".menu2").click(function(){
-  $(".menuStrich2").toggleClass("menuStrich2Ani")
-})
-
-
-$(window).scroll(function(){
-  if($(this).scrollTop() > 1900){
-      $(".htmlKasten2").addClass("htmlKasten2Ani");
-  }
-  else{
-
-      $(".htmlKasten2").removeClass("htmlKasten2Ani");
-  }
-})
-
-
-$(window).scroll(function(){
-  if($(this).scrollTop() > 1900){
-      $(".javaKasten2").addClass("javaKasten2Ani");
-  }
-  else{
-
-      $(".javaKasten2").removeClass("javaKasten2Ani");
-  }
-})
-
-$(".menu2").click(function(){
-  $(".menuGrey").toggleClass("menuGreyAni")
-})
-
-$("li").click(function(){
-  $(".menuGrey").toggleClass("menuGreyAni")
-})
-
-$("li").click(function(){
-  $(".menu").toggleClass("menuAni")
-})
-
-$("li").click(function(){
-  $(".menuStrich1").toggleClass("menuStrich1Ani")
-})
-
-$("li").click(function(){
-  $(".menuStrich2").toggleClass("menuStrich2Ani")
-})
-
-
-
-$(window).scroll(function(){
-  if($(this).scrollTop() > 2100){
-      $(".englischBalken").addClass("englischBalkenAni");
-  }
-  else{
-
-      $(".englischBalken").removeClass("englischBalkenAni");
-  }
-})
-
-$(window).scroll(function(){
-  if($(this).scrollTop() > 2100){
-      $(".deutschBalken").addClass("deutschBalkenAni");
-  }
-  else{
-
-      $(".deutschBalken").removeClass("deutschBalkenAni");
-  }
-})
-
-
-$(window).scroll(function(){
-  if($(this).scrollTop() > 2100){
-      $(".türkischBalken").addClass("türkischBalkenAni");
-  }
-  else{
-
-      $(".türkischBalken").removeClass("türkischBalkenAni");
-  }
-})
 
 
 $(window).scroll(function(){
@@ -281,12 +146,130 @@ $(window).scroll(function(){
 })
 
 
+
 $(window).scroll(function(){
-  if($(this).scrollTop() > 600){
-      $(".strichUber").addClass("strichUberAni");
+  if($(this).scrollTop() > 1900){
+      $(".htmlKasten2").addClass("htmlKasten2Ani");
   }
   else{
 
-      $(".strichUber").removeClass("strichUberAni");
+      $(".htmlKasten2").removeClass("htmlKasten2Ani");
   }
 })
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 1900){
+      $(".javaKasten2").addClass("javaKasten2Ani");
+  }
+  else{
+
+      $(".javaKasten2").removeClass("javaKasten2Ani");
+  }
+})
+
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 2100){
+      $(".englischBalken").addClass("englischBalkenAni");
+  }
+  else{
+
+      $(".englischBalken").removeClass("englischBalkenAni");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 2100){
+      $(".deutschBalken").addClass("deutschBalkenAni");
+  }
+  else{
+
+      $(".deutschBalken").removeClass("deutschBalkenAni");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 2100){
+      $(".türkischBalken").addClass("türkischBalkenAni");
+  }
+  else{
+
+      $(".türkischBalken").removeClass("türkischBalkenAni");
+  }
+})
+
+
+
+
+                          /*Nav*/
+
+
+$("ul li a").click(function(){
+  $("ul li a").css("color", "");
+  $(this).css("color", "#b9fc00");
+})
+
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 10){
+      $(".navbar").addClass("navbarAni");
+  }
+  else{
+
+      $(".navbar").removeClass("navbarAni");
+  }
+})
+
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 10){
+      $(".navbar").addClass("navbarAni");
+  }
+  else{
+
+      $(".navbar").removeClass("navbarAni");
+  }
+})
+
+
+                          /*Menu*/
+
+
+$(".menu2").click(function(){
+  $(".menu").toggleClass("menuAni")
+})
+
+$(".menu2").click(function(){
+  $(".menuStrich1").toggleClass("menuStrich1Ani")
+})
+
+$(".menu2").click(function(){
+  $(".menuStrich2").toggleClass("menuStrich2Ani")
+})
+
+
+$(".menu2").click(function(){
+  $(".menuGrey").toggleClass("menuGreyAni")
+})
+
+$("li").click(function(){
+  $(".menuGrey").toggleClass("menuGreyAni")
+})
+
+$("li").click(function(){
+  $(".menu").toggleClass("menuAni")
+})
+
+$("li").click(function(){
+  $(".menuStrich1").toggleClass("menuStrich1Ani")
+})
+
+$("li").click(function(){
+  $(".menuStrich2").toggleClass("menuStrich2Ani")
+})
+

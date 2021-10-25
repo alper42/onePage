@@ -264,7 +264,7 @@ body{
     top: 160%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: 0.5s;
+    transition: 0.7s;
 }
 .strichUberAni{
 
@@ -1359,7 +1359,7 @@ ul li a:hover{
 
 
 
-                            /*mediaQueryIphone*/
+                            /*mediaQueryMobile*/
 
 
 
@@ -1583,7 +1583,7 @@ ul li a:hover{
         top: 190%;
         left: 50%;
         transform: translate(-50%, -50%);
-        transition: 0.5s;
+        transition: 0.7s;
     }
     .strichUberAni{
 
