@@ -13,6 +13,7 @@ body{
     /*font-family: 'Megrim', cursive;*/
     /*linear-gradient(260deg, rgb(255, 126, 126), rgb(255, 60, 60), rgb(250, 0, 0));*/
     /*linear-gradient(260deg, rgb(170, 204, 255), rgb(43, 128, 255), rgb(0, 102, 255));*/
+    /* background: -webkit-linear-gradient(40deg, rgba(229, 255, 0), rgba(183, 250, 0), rgba(42, 250, 0));*/
 }
 ::-webkit-scrollbar{
 
@@ -676,7 +677,7 @@ button.selected{
     transform: translate(-50%, -50%);
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    background-image: -webkit-linear-gradient(260deg, rgba(156, 255, 209), rgb(0, 255, 136), rgb(0, 116, 62));
+    background: -webkit-linear-gradient(260deg, rgba(156, 255, 209), rgb(0, 255, 136), rgb(0, 116, 62));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1429,7 +1430,10 @@ ul li a:hover{
         top: 65%;
         left: 205%;
         font-size: 30px;
-        background: -webkit-linear-gradient(40deg, rgba(229, 255, 0), rgba(183, 250, 0), rgba(42, 250, 0));
+        background: #2AFC00;
+        background: -webkit-linear-gradient(to right, #2AFC00 0%, #E5FF00 70%);
+        background: -moz-linear-gradient(to right, #2AFC00 0%, #E5FF00 70%);
+        background: linear-gradient(to right, #2AFC00 0%, #E5FF00 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transform: translate(-50%, -50%);
