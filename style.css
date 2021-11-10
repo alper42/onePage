@@ -5,7 +5,6 @@
 body, html{
 
     overflow-x: hidden; 
-    overflow-y: scroll !important; 
     cursor: context-menu;
     background: white;
     color: black;
