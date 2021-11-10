@@ -5,6 +5,7 @@
 body, html{
 
     overflow-x: hidden; 
+    overflow-y: scroll !important; 
     cursor: context-menu;
     background: white;
     color: black;
@@ -40,12 +41,7 @@ body, html{
 
                             /*Home*/
 
-.wrapper{
 
-    position: absolute;
-    overflow-x: hidden;
-    width: 100%;
-}
 
 .kreisOben img{
 
