@@ -5,8 +5,6 @@
 body, html{
 
     overflow-x: hidden; 
-    touch-action: none;
-    -ms-touch-action: none;
     cursor: context-menu;
     background: white;
     color: black;
