@@ -36,13 +36,24 @@ body, html{
     background: white
     
 }
+:root{
+
+    --primary-color: #fff;
+    --secondery-color: #000;
+
+}
+.darkTheme{
+
+    --primary-color: #000;
+    --secondery-color: #fff;
+}
 
 
                             /*Home*/
 
 
 
-.kreisOben img{
+#kreisOben img{
 
     position: absolute;
     width: 550px;
@@ -64,6 +75,7 @@ body, html{
     top: 37%;
     left: 10.5%;
     font-size: 20px;
+    color: var(--secondery-color);
 }
 .portfolio2{
 
@@ -86,7 +98,7 @@ body, html{
     top: 42%;
     left: 10%;
     font-size: 80px;
-    
+    color: var(--secondery-color);
 }
 .name{
 
@@ -1367,9 +1379,10 @@ ul li a:hover{
 @media screen and (max-width: 430px) {
 
 
-    body{
+    html, body{
 
         overflow-x: hidden; 
+        width: 100%;
         background: white;
         color: black;
         font-family:'Comfortaa', cursive;

@@ -273,3 +273,12 @@ $("li").click(function(){
   $(".menuStrich2").toggleClass("menuStrich2Ani")
 })
 
+var kreisOben = document.getElementById("kreisOben");
+
+kreisOben.onclick = function(){
+  document.body.classList.toggle("darkTheme");
+}
+
+$(".portfolio").click(function(){
+  $("body").css("background","blue");
+})
