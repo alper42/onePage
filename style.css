@@ -1381,7 +1381,8 @@ ul li a:hover{
 
     html, body{
 
-        overflow-x: hidden; 
+        overflow: hidden; 
+        overflow-y: scroll;
         width: 100%;
         background: white;
         color: black;
@@ -1389,7 +1390,7 @@ ul li a:hover{
         transition: 0.5s;
         /*font-family: 'Megrim', cursive;*/
     }
-    .kreisOben img{
+    #kreisOben img{
 
         position: absolute;
         width: 50px;
