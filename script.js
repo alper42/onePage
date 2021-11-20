@@ -215,27 +215,6 @@ $("ul li a").click(function(){
 
 
 
-$(window).scroll(function(){
-  if($(this).scrollTop() > 10){
-      $(".navbar").addClass("navbarAni");
-  }
-  else{
-
-      $(".navbar").removeClass("navbarAni");
-  }
-})
-
-
-$(window).scroll(function(){
-  if($(this).scrollTop() > 10){
-      $(".navbar").addClass("navbarAni");
-  }
-  else{
-
-      $(".navbar").removeClass("navbarAni");
-  }
-})
-
 
                           /*Menu*/
 
@@ -273,12 +252,90 @@ $("li").click(function(){
   $(".menuStrich2").toggleClass("menuStrich2Ani")
 })
 
-var kreisOben = document.getElementById("kreisOben");
 
-kreisOben.onclick = function(){
+
+
+var mode = document.getElementById("mode");
+
+mode.onclick = function(){
   document.body.classList.toggle("darkTheme");
 }
 
-$(".portfolio").click(function(){
-  $("body").css("background","blue");
+$(".mode").click(function(){
+  $(".blackMode").toggleClass("blackModeAni")
+})
+
+$(".mode").click(function(){
+  $(".portfolio").toggleClass("portfolioAni")
+})
+
+$(".mode").click(function(){
+  $(".grauerKasten").toggleClass("grauerKastenAni")
+})
+
+
+$(".mode").click(function(){
+  $(".uberMich2").toggleClass("uberMich2Ani")
+})
+
+
+$(".mode").click(function(){
+  $(".lebenslauf2").toggleClass("lebenslauf2Ani")
+})
+
+$(".mode").click(function(){
+  $(".jahr1").toggleClass("jahr1Ani")
+})
+
+$(".mode").click(function(){
+  $(".kenntnisseGrau").toggleClass("kenntnisseGrauAni")
+})
+
+$(".mode").click(function(){
+  $(".cssKasten").toggleClass("cssKastenAni")
+})
+
+
+$(".mode").click(function(){
+  $(".msOfficeKasten").toggleClass("msOfficeKastenAni")
+})
+
+
+$(".mode").click(function(){
+  $(".anschreiben2").toggleClass("anschreiben2Ani")
+})
+
+$(".mode").click(function(){
+  $(".kontaktierMich2").toggleClass("kontaktierMich2Ani")
+})
+
+$(".mode").click(function(){
+  $(".nameC").toggleClass("nameCAni")
+})
+
+$(".mode").click(function(){
+  $(".vornameC").toggleClass("vornameCAni")
+})
+
+$(".mode").click(function(){
+  $(".firmaC").toggleClass("firmaCAni")
+})
+
+$(".mode").click(function(){
+  $(".nachrichtC").toggleClass("nachrichtCAni")
+})
+
+
+$(".mode").click(function(){
+  $(".navbar").toggleClass("navbar2")
+})
+
+$(document).ready(function () {
+  $(".mode").click(function () {
+      $(".lightMode").toggle();
+  });
+});
+
+$(".mode").click(function(){
+  $(".darkMode").toggleClass("darkModeAni")
 })
