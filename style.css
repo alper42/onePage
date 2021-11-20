@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
 }
-body, html{
+body, html, .old{
 
     overflow-x: hidden; 
+    background: var(--primary-color);
     cursor: context-menu;
     color: black;
     font-family:'Comfortaa', cursive;
@@ -49,6 +50,7 @@ body, html{
 
                             /*Home*/
 
+                            
 .blackMode{
 
     position: fixed;
