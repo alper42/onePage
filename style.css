@@ -1618,7 +1618,7 @@ ul li a:hover{
         color: white;
         width: 110px;
         height: 28px;
-        background: rgba(27, 27, 27, 0.5);
+        background: rgba(58, 58, 58, 0.5);
         -webkit-backdrop-filter: blur(20px);
         backdrop-filter: blur(20px);
         border-radius: 20px;
@@ -2829,7 +2829,7 @@ ul li a:hover{
     }
     .menuGreyAni{
 
-        background: rgba(243, 243, 243, 0.3);
+        background: rgba(255, 255, 255, 0.3);
 
     }
     .menu2{
@@ -2847,7 +2847,7 @@ ul li a:hover{
         position: fixed;
         width: 100%;
         height: 100%;
-        background: rgba(110, 110, 110, 0.3);
+        background: rgba(192, 192, 192, 0.3);
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         top: -100%;
