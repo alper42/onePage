@@ -81,12 +81,13 @@ $(".schule").click(function(){
   $(".jahr1beruf").css("z-index", -1);
 });
 
+
 $(".beruf").click(function(){
-  $(".jahr1").css("color", "white");
+  $(".jahr1").css("display", "none");
 });
 
 $(".schule").click(function(){
-  $(".jahr1").css("color", "rgb(196, 196, 196)");
+  $(".jahr1").css("display", "flex");
 });
 
 $(".beruf").click(function(){
@@ -98,11 +99,11 @@ $(".schule").click(function(){
 });
 
 $(".beruf").click(function(){
-  $(".jahr2").css("color", "white");
+  $(".jahr2").css("display", "none");
 });
 
 $(".schule").click(function(){
-  $(".jahr2").css("color", "rgb(196, 196, 196)");
+  $(".jahr2").css("display", "flex");
 });
 
 $(".beruf").click(function(){
@@ -338,4 +339,9 @@ $(document).ready(function () {
 
 $(".mode").click(function(){
   $(".darkMode").toggleClass("darkModeAni")
+})
+
+
+$(".mode").click(function(){
+  $(".menu").toggleClass("menuDark")
 })
