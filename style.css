@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
 }
-body, html, .old{
+body, html{
 
     overflow-x: hidden; 
-    background: var(--primary-color);
     cursor: context-menu;
     color: black;
     font-family:'Comfortaa', cursive;
@@ -50,7 +49,10 @@ body, html, .old{
 
                             /*Home*/
 
-                            
+.old{
+
+    background: var(--primary-color);
+}
 .blackMode{
 
     position: fixed;
@@ -2251,7 +2253,7 @@ ul li a:hover{
         top: 0;
         width: 150px;
         height: 150px;
-        background: var(--primary-color)
+        background: var(--primary-color);
         border-radius: 25px;
         border: 1px solid rgb(231, 231, 231);
         
