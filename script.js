@@ -288,6 +288,12 @@ $(".mode").click(function(){
   $(".jahr1").toggleClass("jahr1Ani")
 })
 
+
+$(".mode").click(function(){
+  $(".jahr2").toggleClass("jahr2Ani")
+})
+
+
 $(".mode").click(function(){
   $(".kenntnisseGrau").toggleClass("kenntnisseGrauAni")
 })
