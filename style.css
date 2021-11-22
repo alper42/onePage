@@ -373,7 +373,7 @@ body, html{
 }
 .uberMich2Ani{
 
-    color: rgb(10, 10, 10);
+    color: rgb(20, 20, 20);
 }
 .uberMichT{
 
@@ -435,7 +435,7 @@ body, html{
 }
 .lebenslauf2Ani{
 
-    color: rgb(10, 10, 10);
+    color: rgb(20, 20, 20);
 }
 .schule0{
 
@@ -1129,7 +1129,7 @@ button.selected{
 }
 .anschreiben2Ani{
 
-    color: rgb(10, 10, 10);
+    color: rgb(20, 20, 20);
 }
 .anschreibenText{
 
@@ -1180,7 +1180,7 @@ button.selected{
 }
 .kontaktierMich2Ani{
 
-    color: rgb(10, 10, 10);
+    color: rgb(20, 20, 20);
 }
 .tel{
 
@@ -1908,7 +1908,7 @@ ul li a:hover{
     }
     .uberMich2Ani{
 
-        color: rgb(10, 10, 10);
+        color: rgb(20, 20, 20);
     }
     .uberMichT{
     
@@ -1951,7 +1951,7 @@ ul li a:hover{
     .lebenslauf{
     
         position: absolute;
-        top: 215%;
+        top: 210%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 25px;
@@ -1960,7 +1960,7 @@ ul li a:hover{
     .lebenslauf2{
     
         position: absolute;
-        top: 214%;
+        top: 209%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 60px;
@@ -1969,12 +1969,12 @@ ul li a:hover{
     }
     .lebenslauf2Ani{
 
-        color: rgb(10, 10, 10);
+        color: rgb(20, 20, 20);
     }
     .schule0{
     
         position: absolute;
-        top: 230%;
+        top: 225%;
         left: 50%;
         background: none;
         width: 180px;
@@ -2016,11 +2016,12 @@ ul li a:hover{
         font-size: 20px;
         left: 50%;
         transform: translate(-50%, -50%);
+        display: none;
     }
     .beruf0{
     
         position: absolute;
-        top: 243%;
+        top: 235%;
         left: 50%;
         background: none;
         width: 205px;
@@ -2062,17 +2063,17 @@ ul li a:hover{
     .schulbildungbox{
     
         position: absolute;
-        top: 285%;
+        top: 275%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 600px;
-        height: 335px;
-      
+        width: 100%;
+        height: 50%;
+        background: none;
     }
     .baum{
     
         position: absolute;
-        top: 287%;
+        top: 280%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 95px;
@@ -2084,22 +2085,24 @@ ul li a:hover{
     
         position: absolute;
         width: 200px;
-        left: 20%;
+        left: 5%;
         font-weight: bold;
         font-size: 14px;
+        top: 0;
+        text-align: center;
     }
     .kalender1{
     
         position: absolute;
         top: 15%;
-        left: 25%;
+        left: 10%;
         color: rgb(212, 212, 212);
     }
     .jahr1{
     
         position: absolute;
         top: 16%;
-        left: 28.5%;
+        left: 15%;
         font-size: 12px;
         color: rgb(196, 196, 196);
         width: 125px;
@@ -2115,7 +2118,7 @@ ul li a:hover{
     
         position: absolute;
         top: 16%;
-        left: 28.5%;
+        left: 15%;
         font-size: 12px;
         color: rgb(196, 196, 196);
         text-decoration: none;
@@ -2128,24 +2131,25 @@ ul li a:hover{
     
         position: absolute;
         width: 150px;
-        right: 15%;
-        top: 19%;
+        right: 5%;
+        top: 27%;
         font-weight: bold;
         font-size: 14px;
+        text-align: center;
     }
     .kalender2{
     
         position: absolute;
-        top: 34%;
-        right: 35%;
+        top: 41%;
+        right: 33%;
         color: rgb(212, 212, 212);
 
     }
     .jahr2{
     
         position: absolute;
-        top: 35%;
-        right: 17%;
+        top: 42%;
+        right: 6%;
         font-size: 14px;
         color: rgb(196, 196, 196);
         width: 100px;
@@ -2161,8 +2165,8 @@ ul li a:hover{
     .jahr2beruf{
     
         position: absolute;
-        top: 35%;
-        right: 24%;
+        top: 42%;
+        right: 16%;
         font-size: 14px;
         color: rgb(196, 196, 196);
         font-size: 12px;
@@ -2183,24 +2187,25 @@ ul li a:hover{
     
         position: absolute;
         width: 150px;
-        left: 25%;
-        top: 41%;
+        left: 5%;
+        top: 54%;
         font-weight: bold;
         font-size: 14px;
+        text-align: center;
     }
     .kalender3{
     
         position: absolute;
-        top: 54%;
-        left: 26%;
+        top: 68%;
+        left: 10%;
         color: rgb(212, 212, 212);
 
     }
     .jahr3{
     
         position: absolute;
-        top: 55%;
-        left: 30%;
+        top: 69%;
+        left: 15%;
         font-size: 12px;
         color: rgb(196, 196, 196);
 
@@ -2209,23 +2214,24 @@ ul li a:hover{
     
         position: absolute;
         width: 150px;
-        right: 15%;
-        top: 62%;
+        right: 5%;
+        top: 81%;
         font-weight: bold;
         font-size: 14px;
+        text-align: center;
     }
     .kalender4{
     
         position: absolute;
-        top: 75%;
-        right: 35%;
+        top: 95%;
+        right: 33%;
         color: rgb(212, 212, 212);
     }
     .jahr4{
     
         position: absolute;
-        top: 76%;
-        right: 23%;
+        top: 96%;
+        right: 15%;
         font-size: 12px;
         color: rgb(196, 196, 196);
 
@@ -2277,8 +2283,8 @@ ul li a:hover{
     .kreis2{
     
         position: absolute;
-        top: 16.5%;
-        right: 0%;
+        top: 22%;
+        left: 45%;
         background: #e5ff00;
         width: 15px;
         height: 15px;
@@ -2287,9 +2293,9 @@ ul li a:hover{
     .kreis3{
     
         position: absolute;
-        top: 34.5%;
-        left: 5%;
-        background: #2afc00;
+        top: 45%;
+        left: 45%;
+        background: #e5ff00;
         width: 15px;
         height: 15px;
         border-radius: 50%;
@@ -2297,9 +2303,9 @@ ul li a:hover{
     .kreis4{
     
         position: absolute;
-        top: 52%;
-        right: 0%;
-        background: #e5ff00;
+        top: 67%;
+        left: 45%;
+        background: #2afc00;
         width: 15px;
         height: 15px;
         border-radius: 50%;
@@ -2311,7 +2317,7 @@ ul li a:hover{
         width: 100%;
         height: 120%;
         background: rgb(245, 245, 245);
-        top: 315%;
+        top: 310%;
     }
     .kenntnisseGrauAni{
 
@@ -2518,7 +2524,7 @@ ul li a:hover{
     }
     .anschreiben2Ani{
 
-        color: rgb(10, 10, 10);
+        color: rgb(20, 20, 20);
     }
     .anschreibenText{
     
@@ -2570,7 +2576,7 @@ ul li a:hover{
     }
     .kontaktierMich2Ani{
 
-        color: rgb(10, 10, 10);
+        color: rgb(20, 20, 20);
     }
     .tel{
     
@@ -2643,7 +2649,7 @@ ul li a:hover{
     }
     .nameCAni{
 
-        background:rgb(10, 10, 10);
+        background:rgb(20, 20, 20);
         color: white;
     }
     .vornameC{
@@ -2662,7 +2668,7 @@ ul li a:hover{
     }
     .vornameCAni{
 
-        background:rgb(10, 10, 10);
+        background:rgb(20, 20, 20);
         color: white;
     }
     .firmaC{
@@ -2681,7 +2687,7 @@ ul li a:hover{
     }
     .firmaCAni{
 
-        background:rgb(10, 10, 10);
+        background:rgb(20, 20, 20);
         color: white;
     }
     .nachrichtC{
@@ -2700,7 +2706,7 @@ ul li a:hover{
     }
     .nachrichtCAni{
 
-        background:rgb(10, 10, 10);
+        background:rgb(20, 20, 20);
         color: white;
     }
     .senden{
@@ -2856,6 +2862,23 @@ ul li a:hover{
         width: 100%;
         font-size: 20px;
         font-weight: bold;
+    }
+    ul li a::after{
+
+        display: none;
+    
+    }
+    ul li a:hover:after{
+    
+        display: none;
+        
+    
+    }
+    ul li a:hover{
+    
+        background: -webkit-linear-gradient(85deg, #e5ff00, #b9fc00, #2afc00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .contactMenu{
 
