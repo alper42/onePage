@@ -271,6 +271,11 @@ $(".mode").click(function(){
 })
 
 $(".mode").click(function(){
+  $(".willkommen").toggleClass("willkommenAni")
+})
+
+
+$(".mode").click(function(){
   $(".grauerKasten").toggleClass("grauerKastenAni")
 })
 
@@ -351,3 +356,16 @@ $(".mode").click(function(){
 $(".mode").click(function(){
   $(".menu").toggleClass("menuDark")
 })
+
+
+
+setInterval(function(){ 
+  $('.refresh').addClass("refreshAni")
+}, 1500);
+
+setInterval(function(){ 
+  $('.logoNameRefresh').addClass("logoNameRefreshAni")
+}, 500);
+
+$(this).scrollTop(0);
+

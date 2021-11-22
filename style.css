@@ -138,6 +138,19 @@ body, html{
     color: white;
 
 }
+.fadeInMode{
+
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background: black;
+   
+}
+
+.fadeInModeAni{
+
+    height: 100%;
+}
 #kreisOben img{
 
     position: absolute;
@@ -160,7 +173,11 @@ body, html{
     top: 37%;
     left: 10.5%;
     font-size: 20px;
-    color: var(--secondery-color);
+    color: black
+}
+.willkommenAni{
+
+    color: rgb(70, 70, 70);
 }
 .portfolio2{
 
@@ -184,7 +201,10 @@ body, html{
     left: 10%;
     font-size: 80px;
     color: var(--secondery-color);
+   
+
 }
+
 .name{
 
     position: absolute;
@@ -212,7 +232,7 @@ body, html{
     text-align: center;
     line-height: 2.5;
     font-size: 20px;
-    z-index: 1;
+
 }
 .buttonZuKontakt a:hover{
 
@@ -1435,7 +1455,6 @@ button.selected{
     top: 0;
     width: 100%;
     height: 10%;
-    z-index: 2;
     background: rgba(235, 235, 235, 0.3);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
@@ -1454,15 +1473,14 @@ button.selected{
     left: 5%;
     font-size: 25px;
     color: var(--secondery-color);
-    z-index: 10;
+   
 }
 ul{
 
     position: fixed;
     top: 6.6%;
     left: 52%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
+    transform: translate(-50%, -50%)
    
  
 
@@ -1531,9 +1549,46 @@ ul li a:hover{
     background: linear-gradient(260deg, #c4da00, #a6e200, #25dd00);;
 }
 
+.refresh{
 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    transition: 0.5s ease;
+    top: 0;
+    overflow: hidden;
+    z-index: 999999;
+}
+.refreshAni{
 
+    height: 0%;
+}
+.logoNameRefresh{
 
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.logoNameRefreshAni{
+
+    color: white;
+}
+.logoRefresh img{
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+}
 
                             /*mediaQueryMobile*/
 
@@ -1618,7 +1673,7 @@ ul li a:hover{
         color: white;
         width: 110px;
         height: 28px;
-        background: rgba(90, 90, 90, 0.5);
+        background: rgba(75, 75, 75, 0.5);
         -webkit-backdrop-filter: blur(20px);
         backdrop-filter: blur(20px);
         border-radius: 20px;
@@ -1662,6 +1717,10 @@ ul li a:hover{
         font-size: 15px;
         transform: translate(-50%, -50%);
         
+    }
+    .willkommenAni{
+
+        color: rgb(255, 255, 255);
     }
     .portfolio2{
     
@@ -1997,7 +2056,7 @@ ul li a:hover{
     .baum{
     
         position: absolute;
-        top: 290%;
+        top: 287%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 95px;
@@ -2162,9 +2221,9 @@ ul li a:hover{
         width: 100px;
         height: 3px;
         background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-        top: 10%;
+        top: 15%;
         left: 0%;
-        transform: rotate(45deg);
+        transform: rotate(90deg);
         border-radius: 20px;
     }
     .strich2{
@@ -2172,10 +2231,10 @@ ul li a:hover{
         position: absolute;
         width: 100px;
         height: 3px;
-        background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-        top: 27%;
+        background: #e5ff00;
+        top: 35%;
         left: 0%;
-        transform: rotate(-45deg);
+        transform: rotate(270deg);
         border-radius: 20px;
     }
     .strich3{
@@ -2184,16 +2243,16 @@ ul li a:hover{
         width: 100px;
         height: 3px;
         background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
-        top: 45%;
+        top: 55%;
         left: 0%;
-        transform: rotate(45deg);
+        transform: rotate(270deg);
         border-radius: 20px;
     }
     .kreis1{
     
         position: absolute;
         top: 0%;
-        left: 5%;
+        left: 45%;
         background: #2afc00;
         width: 15px;
         height: 15px;
@@ -2236,7 +2295,7 @@ ul li a:hover{
         width: 100%;
         height: 120%;
         background: rgb(245, 245, 245);
-        top: 310%;
+        top: 315%;
     }
     .kenntnisseGrauAni{
 
@@ -2756,7 +2815,6 @@ ul li a:hover{
         font-size: 25px;
         color: black;
         color: var(--secondery-color);
-        z-index: 10;
     }
     ul{
     
