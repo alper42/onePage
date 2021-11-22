@@ -364,6 +364,11 @@ setInterval(function(){
 }, 1500);
 
 setInterval(function(){ 
+  $('.refresh2').addClass("refresh2Ani")
+}, 1850);
+
+
+setInterval(function(){ 
   $('.logoNameRefresh').addClass("logoNameRefreshAni")
 }, 500);
 
