@@ -1615,13 +1615,10 @@ ul li a:hover{
 
     html, body{
 
-        overflow: hidden; 
-        overflow-y: scroll;
-        width: 100%;
+        overflow-x: hidden; 
         background: white;
         color: black;
         font-family:'Comfortaa', cursive;
-        transition: 0.5s;
         /*font-family: 'Megrim', cursive;*/
     }
     .blackMode{
@@ -2326,13 +2323,12 @@ ul li a:hover{
     .edvKasten{
 
         position: absolute;
-        width: 320px;
-        height: 320px;
+        width: 83%;
+        height: 47%;
         top: 350%;
         background: none;
         left: 50%;
         transform: translate(-50%, -50%);
-        background:  none;
     }
     .msOfficeKasten{
 
@@ -2957,7 +2953,7 @@ ul li a:hover{
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         top: 0%;
-        transition: 0.3s ease;
+        transition: 0.4s ease;
         overflow: hidden;
         opacity: 0;
         visibility: hidden;
