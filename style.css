@@ -2545,7 +2545,7 @@ ul li a:hover{
     .kontaktierMich{
     
         position: absolute;
-        top: 0.5%;
+        top: 0.2%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 25px;
@@ -2559,7 +2559,7 @@ ul li a:hover{
         top: 0%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 42px;
+        font-size: 37px;
         font-weight: bold;
         color: rgb(240, 240, 240);
         width: 100%;
