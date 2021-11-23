@@ -149,7 +149,7 @@ $(window).scroll(function(){
 
 
 $(window).scroll(function(){
-  if($(this).scrollTop() > 1900){
+  if($(this).scrollTop() > 1950){
       $(".htmlKasten2").addClass("htmlKasten2Ani");
   }
   else{
@@ -160,7 +160,7 @@ $(window).scroll(function(){
 
 
 $(window).scroll(function(){
-  if($(this).scrollTop() > 1900){
+  if($(this).scrollTop() > 1950){
       $(".javaKasten2").addClass("javaKasten2Ani");
   }
   else{
@@ -172,7 +172,7 @@ $(window).scroll(function(){
 
 
 $(window).scroll(function(){
-  if($(this).scrollTop() > 2100){
+  if($(this).scrollTop() > 2150){
       $(".englischBalken").addClass("englischBalkenAni");
   }
   else{
@@ -183,7 +183,7 @@ $(window).scroll(function(){
 
 
 $(window).scroll(function(){
-  if($(this).scrollTop() > 2100){
+  if($(this).scrollTop() > 2150){
       $(".deutschBalken").addClass("deutschBalkenAni");
   }
   else{
@@ -194,7 +194,7 @@ $(window).scroll(function(){
 
 
 $(window).scroll(function(){
-  if($(this).scrollTop() > 2100){
+  if($(this).scrollTop() > 2150){
       $(".türkischBalken").addClass("türkischBalkenAni");
   }
   else{
@@ -375,21 +375,61 @@ setInterval(function(){
 
 $(this).scrollTop(0);
 
-/*
-if (window.matchMedia('(max-width: 768px)').matches)
+
+if (window.matchMedia('(max-width: 430px)').matches)
 {
-    $('.sub-menu-button').on('click', function(e)
-    {
-        var subMenu = $(this).next('.sub-navigation');
-        if(subMenu.is(':visible'))
-        {
-            subMenu.slideUp();
-        } else {
-            subMenu.slideDown();
-        }
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 1720){
+        $(".htmlKasten2").addClass("htmlKasten2Ani");
+    }
+    else{
+  
+        $(".htmlKasten2").removeClass("htmlKasten2Ani");
+    }
+  })
+  
+    
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 1720){
+        $(".javaKasten2").addClass("javaKasten2Ani");
+    }
+    else{
+  
+        $(".javaKasten2").removeClass("javaKasten2Ani");
+    }
+  })
 
-        return false;
-    });
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 2100){
+        $(".englischBalken").addClass("englischBalkenAni");
+    }
+    else{
+  
+        $(".englischBalken").removeClass("englischBalkenAni");
+    }
+  })
+  
+  
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 2100){
+        $(".deutschBalken").addClass("deutschBalkenAni");
+    }
+    else{
+  
+        $(".deutschBalken").removeClass("deutschBalkenAni");
+    }
+  })
+  
+  
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 2100){
+        $(".türkischBalken").addClass("türkischBalkenAni");
+    }
+    else{
+  
+        $(".türkischBalken").removeClass("türkischBalkenAni");
+    }
+  })
+  
+
 }
-
-*/
