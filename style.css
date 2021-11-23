@@ -540,23 +540,24 @@ button.selected{
 .zielstatt{
 
     position: absolute;
-    width: 200px;
-    left: 7%;
+    width: 160px;
+    left: 15%;
     font-weight: bold;
     color: var(--secondery-color);
+  
 }
 .kalender1{
 
     position: absolute;
     top: 18.5%;
-    left: 10%;
+    left: 18%;
     color: rgb(212, 212, 212);
 }
 .jahr1{
 
     position: absolute;
     top: 19.3%;
-    left: 14%;
+    left: 22%;
     font-size: 14px;
     color: rgb(196, 196, 196);
     width: 125px;
@@ -572,10 +573,9 @@ button.selected{
 
     position: absolute;
     top: 19.5%;
-    left: 14%;
+    left: 22%;
     font-size: 14px;
     color: rgb(196, 196, 196);
-  
 
 
 
@@ -583,8 +583,8 @@ button.selected{
 .samberger{
 
     position: absolute;
-    width: 200px;
-    right: 3%;
+    width: 170px;
+    right: 8%;
     top: 32%;
     font-weight: bold;
     color: var(--secondery-color);

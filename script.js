@@ -379,7 +379,7 @@ $(this).scrollTop(0);
 if (window.matchMedia('(max-width: 430px)').matches)
 {
   $(window).scroll(function(){
-    if($(this).scrollTop() > 1720){
+    if($(this).scrollTop() > 1700){
         $(".htmlKasten2").addClass("htmlKasten2Ani");
     }
     else{
@@ -390,7 +390,7 @@ if (window.matchMedia('(max-width: 430px)').matches)
   
     
   $(window).scroll(function(){
-    if($(this).scrollTop() > 1720){
+    if($(this).scrollTop() > 1700){
         $(".javaKasten2").addClass("javaKasten2Ani");
     }
     else{
