@@ -372,5 +372,24 @@ setInterval(function(){
   $('.logoNameRefresh').addClass("logoNameRefreshAni")
 }, 500);
 
+
 $(this).scrollTop(0);
 
+/*
+if (window.matchMedia('(max-width: 768px)').matches)
+{
+    $('.sub-menu-button').on('click', function(e)
+    {
+        var subMenu = $(this).next('.sub-navigation');
+        if(subMenu.is(':visible'))
+        {
+            subMenu.slideUp();
+        } else {
+            subMenu.slideDown();
+        }
+
+        return false;
+    });
+}
+
+*/

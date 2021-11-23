@@ -1652,7 +1652,7 @@ ul li a:hover{
         left: 50%;
         transform: translate(-50%, 0%);
         color: black;
-        width: 108px;
+        width: 109px;
         height: 25px;
         background: rgba(223, 223, 223, 0.5);
         -webkit-backdrop-filter: blur(20px);
@@ -3055,7 +3055,7 @@ ul li a:hover{
     
 
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 385px) {
 
     .darkMode{
     
