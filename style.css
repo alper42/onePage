@@ -1774,7 +1774,7 @@ ul li a:hover{
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
         transform: translate(-50%, -50%);
-        display: block;
+        display: inline;
     }
     .buttonZuKontakt a{
     
