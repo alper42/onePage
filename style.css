@@ -1757,7 +1757,7 @@ ul li a:hover{
         font-size: 20px;
         transform: translate(-50%, -50%);
     }
-    .name, span{
+    .name{
     
         position: absolute;
         width: 100px;
@@ -1765,9 +1765,14 @@ ul li a:hover{
         top: 65%;
         left: 205%;
         font-size: 30px;
-        background: -webkit-linear-gradient(40deg, rgba(229, 255, 0), rgba(183, 250, 0), rgba(42, 250, 0));
+        background: #b7fa00;
+        background: -webkit-linear-gradient(40deg, #e5ff00, #b7fa00, #2afa00);
+        background: linear-gradient(40deg, #e5ff00, #b7fa00, #2afa00);
+        background-size: 100%;
         -webkit-background-clip: text;
+        -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
         transform: translate(-50%, -50%);
         display: block;
     }
