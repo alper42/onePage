@@ -213,10 +213,15 @@ body, html{
     top: 90%;
     left: 18%;
     font-size: 80px;
-    background: -webkit-linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
+    background: #b7fa00;
+    background: -webkit-linear-gradient(40deg, #e5ff00, #b7fa00, #2afa00);
+    background: linear-gradient(40deg, #e5ff00, #b7fa00, #2afa00);
+    background-size: 100%;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    -moz-text-fill-color: transparent;
+    display: inline-block;
 }
 .buttonZuKontakt a{
 
@@ -1774,7 +1779,7 @@ ul li a:hover{
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
         transform: translate(-50%, -50%);
-        display: inline;
+        display: inline-block;
     }
     .buttonZuKontakt a{
     
