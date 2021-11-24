@@ -1572,7 +1572,7 @@ ul li a:hover{
     height: 100%;
     background: linear-gradient(260deg, #e5ff00, #b9fc00, #2afc00);
     color: white;
-    transition: 0.35s ease;
+    transition: 0.25s ease;
     top: 0;
     overflow: hidden;
     z-index: 999999;
@@ -1588,9 +1588,9 @@ ul li a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(235, 235, 235);
-    font-size: 22px;
-    transition: 0.5s;
-    font-weight: bold;
+    font-size: 24px;
+    transition: 0.8s;
+   
 }
 .logoNameRefreshAni{
 
@@ -3035,8 +3035,8 @@ ul li a:hover{
         transform: translate(-50%, -50%);
         color: rgb(221, 221, 221);
         font-size: 20px;
-        transition: 0.5s;
-        font-weight: bold;
+        transition: 0.8s;
+    
     }
     .logoNameRefreshAni{
     
