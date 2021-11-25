@@ -177,7 +177,7 @@ body, html{
 }
 .willkommenAni{
 
-    color: rgb(70, 70, 70);
+    color: rgb(100, 100, 100);
 }
 .portfolio2{
 
@@ -246,11 +246,14 @@ body, html{
 .portfolio{
 
     position: absolute;
-    top: 45%;
-    right: -18%;
-    transform: rotate(270deg);
+    top: 0;
+    right: 0;
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
     font-size: 150px;
     color: rgb(226, 226, 226);
+    background: none;
+    height: 135px;
 }
 .portfolioAni{
 
