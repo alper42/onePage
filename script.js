@@ -428,6 +428,8 @@ if (window.matchMedia('(max-width: 430px)').matches)
 
 }
 
-function vibrate (ms) {
-  navigator.vibrate(ms);
+function mode(){
+  if(navigator){
+    navigator.vibrate(1000)
+  }
 }
